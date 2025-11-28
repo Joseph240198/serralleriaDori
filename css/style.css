@@ -116,7 +116,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--bs-primary);
+    color: var(--bs-red);
 }
 
 .navbar .dropdown-toggle::after {
@@ -266,7 +266,7 @@
     height: 300px;
     top: 0;
     left: 0;
-    border: 5px solid var(--bs-primary);
+    border: 5px solid var(--bs-red);
     animation: animateUpDown 3s ease-in-out infinite;
     z-index: -1;
 }
@@ -348,7 +348,7 @@
     top: 0;
     right: 0;
     transition: .5s;
-    background: var(--bs-primary);
+    background: var(--bs-red);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -431,7 +431,7 @@
 .testimonial-carousel .owl-nav .owl-prev,
 .testimonial-carousel .owl-nav .owl-next {
     margin-right: 15px;
-    color: var(--bs-primary);
+    color: var(--bs-red);
     font-size: 45px;
     transition: .5s;
 }
@@ -497,12 +497,12 @@
     content: "\f105";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    color: var(--bs-primary);
+    color: var(--bs-red);
     margin-right: 10px;
 }
 
 .footer .btn.btn-link:hover {
-    color: var(--bs-primary);
+    color: var(--bs-red);
     letter-spacing: 1px;
     box-shadow: none;
 }
@@ -516,9 +516,10 @@
 }
 
 .copyright a:hover {
-    color: var(--bs-primary);
+    color: var(--bs-red);
 
 }
+
 
 
 
