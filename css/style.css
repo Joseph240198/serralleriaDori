@@ -306,7 +306,7 @@
     left: 0;
     bottom: 0;
     transition: 1s;
-    background: var(--bs-primary);
+    background: var(--bs-red);
 }
 
 .service .service-inner:hover::before {
@@ -519,5 +519,6 @@
     color: var(--bs-primary);
 
 }
+
 
 
