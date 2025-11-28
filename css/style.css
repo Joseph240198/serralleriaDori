@@ -107,7 +107,7 @@
 .navbar .navbar-nav .nav-link {
     margin-right: 35px;
     padding: 25px 0;
-    color: var(--bs-dark);
+    color: var(--bs-red);
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 600;
@@ -519,6 +519,7 @@
     color: var(--bs-red);
 
 }
+
 
 
 
