@@ -53,7 +53,7 @@
 
 .btn-primary,
 .btn-outline-primary:hover {
-    color: var(--bs-red);
+    color: var(--bs-light);
 }
 
 .btn-secondary,
@@ -100,9 +100,9 @@
 
 /*** Navbar ***/
 .sticky-top {
-    top: 0;
+    top: -100px;
     transition: .5s;
-    background: var(--bs-white);
+    background: var(--bs-red);
 }
 
 .navbar .navbar-nav .nav-link {
