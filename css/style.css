@@ -102,12 +102,13 @@
 .sticky-top {
     top: -100px;
     transition: .5s;
+    background: var(--bs-red);
 }
 
 .navbar .navbar-nav .nav-link {
     margin-right: 35px;
     padding: 25px 0;
-    color: var(--bs-dark);
+    color: var(--bs-red);
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 600;
@@ -116,7 +117,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--bs-primary);
+    color: var(--bs-red);
 }
 
 .navbar .dropdown-toggle::after {
@@ -248,7 +249,7 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(20, 0, 0, .7)), url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -266,7 +267,7 @@
     height: 300px;
     top: 0;
     left: 0;
-    border: 5px solid var(--bs-primary);
+    border: 5px solid var(--bs-red);
     animation: animateUpDown 3s ease-in-out infinite;
     z-index: -1;
 }
@@ -294,7 +295,7 @@
     position: relative;
     height: 100%;
     margin-top: 45px;
-    background: var(--bs-white);
+    background: var(--bs-red);
     box-shadow: 0 0 45px rgba(0, 0, 0, .05);
 }
 
@@ -306,7 +307,7 @@
     left: 0;
     bottom: 0;
     transition: 1s;
-    background: var(--bs-primary);
+    background: var(--bs-red);
 }
 
 .service .service-inner:hover::before {
@@ -327,7 +328,7 @@
 
 .service .service-item:hover h5,
 .service .service-item:hover p {
-    color: var(--bs-white);
+    color: var(--bs-red);
 }
 
 .service .service-item:hover a {
@@ -348,7 +349,7 @@
     top: 0;
     right: 0;
     transition: .5s;
-    background: var(--bs-primary);
+    background: var(--bs-red);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -431,7 +432,7 @@
 .testimonial-carousel .owl-nav .owl-prev,
 .testimonial-carousel .owl-nav .owl-next {
     margin-right: 15px;
-    color: var(--bs-primary);
+    color: var(--bs-red);
     font-size: 45px;
     transition: .5s;
 }
@@ -497,12 +498,12 @@
     content: "\f105";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    color: var(--bs-primary);
+    color: var(--bs-red);
     margin-right: 10px;
 }
 
 .footer .btn.btn-link:hover {
-    color: var(--bs-primary);
+    color: var(--bs-red);
     letter-spacing: 1px;
     box-shadow: none;
 }
@@ -516,5 +517,14 @@
 }
 
 .copyright a:hover {
-    color: var(--bs-primary);
+    color: var(--bs-red);
+
 }
+
+
+
+
+
+
+
+
