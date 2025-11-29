@@ -137,7 +137,8 @@
 
     .navbar .navbar-nav {
         margin-top: 15px;
-        border-top: 1px solid #EEEE;
+         border-top: 1px solid var(--bs-red);
+       /** border-top: 1px solid #EEEE;**/
     }
 }
 
