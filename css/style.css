@@ -53,7 +53,7 @@
 
 .btn-primary,
 .btn-outline-primary:hover {
-    color: var(--bs-light);
+    color: var(--bs-red);
 }
 
 .btn-secondary,
@@ -137,7 +137,7 @@
 
     .navbar .navbar-nav {
         margin-top: 15px;
-        border-top: 1px solid #8f0808;
+        border-top: 1px solid #EEEE;
     }
 }
 
