@@ -102,13 +102,13 @@
 .sticky-top {
     top: 0;
     transition: .5s;
-    background: var(--bs-red);
+    background: var(--bs-white);
 }
 
 .navbar .navbar-nav .nav-link {
     margin-right: 35px;
     padding: 25px 0;
-    color: var(--bs-red);
+    color: var(--bs-white);
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 600;
@@ -117,7 +117,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--bs-red);
+    color: var(--bs-white);
 }
 
 .navbar .dropdown-toggle::after {
