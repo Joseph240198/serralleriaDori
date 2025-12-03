@@ -254,7 +254,25 @@
     background: linear-gradient(rgba(0, 0, 0, .7), rgba(20, 0, 0, .7)), url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
 }
+/* Ajustes para móviles */
+@media (max-width: 576px) {
+    .carousel .carousel-caption {
+        padding: 2rem !important;
+        padding-left: 1.5rem !important; /* antes eran 11, 10, 9 rem */
+        text-align: left !important;
+    }
 
+    .carousel .carousel-caption h1 {
+        font-size: 2rem !important;
+        line-height: 1.2 !important;
+        white-space: normal !important;
+        word-break: break-word !important;
+    }
+
+    .carousel .carousel-indicators {
+        display: none !important; /* OPCIONAL: ocultar los thumbnails en móvil */
+    }
+}
 
 /*** About ***/
 .about-img {
