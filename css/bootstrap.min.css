@@ -234,12 +234,12 @@ sup {
 }
 
 a {
-    color: var(--bs-red);
+    color: var(--bs-red); /*buttons color*/
     text-decoration: none
 }
 
 a:hover {
-    color: var(--bs-red);
+    color: var(--bs-red); /*hover buttons color*/
 }
 
 a:not([href]):not([class]),
@@ -4573,7 +4573,8 @@ fieldset:disabled .btn {
     vertical-align: middle;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%
+    background-size: 100%;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .navbar-nav-scroll {
