@@ -8345,7 +8345,7 @@ fieldset:disabled .btn {
 }
 
 .text-primary {
-    color: #ce9233 !important
+    color: var(--bs-primary) !important
 }
 
 .text-secondary {
