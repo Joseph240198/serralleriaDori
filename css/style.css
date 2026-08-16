@@ -327,7 +327,7 @@
     left: 0;
     bottom: 0;
     transition: 1s;
-    background: var(--bs-red);
+    background: var(--bs-lightGray);
 }
 
 .service .service-inner:hover::before {
