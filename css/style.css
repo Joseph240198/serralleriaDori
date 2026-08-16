@@ -315,7 +315,7 @@
     position: relative;
     height: 100%;
     margin-top: 45px;
-    background: var(--bs-red);
+    background: var(--bs-lightGray);
     box-shadow: 0 0 45px rgba(0, 0, 0, .05);
 }
 
