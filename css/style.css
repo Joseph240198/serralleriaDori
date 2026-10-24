@@ -46,9 +46,11 @@
 
 /*** Button ***/
 .btn {
-    transition: .5s;
+    transition: .3s;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: none; /*No mayus*/
+    border-radius: 50px !important; /*rounded buttons*/
+    padding: 12px 30px;
 }
 
 .btn-primary,
@@ -102,22 +104,23 @@
 .sticky-top {
     top: -100px;
     transition: .5s;
-    background: var(--bs-dark);
+    background: #FFFFFF; /*white background*/
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .05); /*light shadow*/
 }
 
 .navbar .navbar-nav .nav-link {
-    margin-right: 35px;
+    margin-right: 25px;
     padding: 25px 0;
-    color: var(--bs-white);
-    font-size: 16px;
-    text-transform: uppercase;
+    color: #2B2C2E; /* dark text */
+    font-size: 15px;
+    text-transform: none; /* No mayus */
     font-weight: 600;
     outline: none;
 }
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--bs-white);
+    color: #dc3545; /* red when mouse over */
 }
 
 .navbar .dropdown-toggle::after {
@@ -315,8 +318,14 @@
     position: relative;
     height: 100%;
     margin-top: 45px;
-    background: var(--bs-lightGray);
-    box-shadow: 0 0 45px rgba(0, 0, 0, .05);
+    background: #ffffff; /* White background */
+    border-radius: 12px; /* Rounded corners */
+    overflow: hidden; /* Para que la imagen respete el borde */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .08); /* Modern shadow*/
+    transition: transform 0.3s ease;
+}
+.service .service-inner:hover {
+    transform: translateY(-5px); /* Efecto de elevación */
 }
 
 .service .service-inner::before {
